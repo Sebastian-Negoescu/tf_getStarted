@@ -1,2 +1,2 @@
 prefix = "tf"
-location = "westus"
+location = "westeurope"

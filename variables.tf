@@ -19,3 +19,10 @@ variable "sku" {
         eastus = "18.04-LTS"
     }
 }
+
+variable "admin_username" {
+    type = "string"
+    default = "sebinego"
+}
+
+variable "admin_password" {}
