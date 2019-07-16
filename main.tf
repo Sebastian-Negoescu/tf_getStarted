@@ -6,14 +6,13 @@ provider "azurerm" {
 
 # Define variables to be used
 ### Caution: it is extremly poor programming practice to write explicit variables like these, but they serve as an example now
+#variable "admin_username" {
+#    default = "sebinego"
+#}
 
-variable "admin_username" {
-    default = "sebinego"
-}
-
-variable "admin_password" {
-    default = "3SebiDev*****"
-}
+#variable "admin_password" {
+#    default = "3SebiDev*****"
+#}
 
 # Create the Resource Group first
 resource "azurerm_resource_group" "resourceGroup" {
